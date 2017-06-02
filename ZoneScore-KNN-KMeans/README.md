@@ -1,4 +1,4 @@
-# Assignment 2
+
 
 ## LICENSE
 
@@ -28,13 +28,13 @@ Couldn't get the multiple line queries to work so query must be on one line
 #### Document Classification
 ###### Create Labeled Index
 * **run with command** python3 create_labeled_index.py [document dir path] [index dir path]
-* **example** python3 create_labeled_index.py /home/jordan/Documents/Git/class_data /home/jordan/Documents/Git/class_data
+* **example** python3 create_labeled_index.py /home/ajack/Documents/Git/class_data /home/jordan/Documents/Git/class_data
 
 creates a file called labeled_index.db in the index directory
 
 ###### KNN Classifier
 * **run with command** python3 knn_classifier.py [index dir path] [k] [document path]
-* **example** python3 create_labeled_index.py /home/jordan/Documents/Git/class_data 20 /home/jordan/Documents/Git/class_data/0.txt
+* **example** python3 create_labeled_index.py /home/ajack/Documents/Git/class_data 20 /home/jordan/Documents/Git/class_data/0.txt
 
 returns the classification of the document
 
@@ -47,12 +47,12 @@ most_common_words= [word for word, word_count in Counter(genrelist).most_common(
 #### Document Clustering
 ###### Create Index
 * **run with command** python3 create_index.py [document dir path] [index dir path]
-* **example** python3 create_index.py /home/jordan/Documents/Git/cluster_data /home/jordan/Documents/Git/cluster_data
+* **example** python3 create_index.py /home/ajack/Documents/Git/cluster_data /home/jordan/Documents/Git/cluster_data
 Creates index called inverted_index.db
 
 ###### K Means Clusterer
 * **run with command** python3 k_means_clusterer.py [index dir path] [k] [optional seeds]
-* **example** python3 create_index.py /home/jordan/Documents/Git/cluster_data 5 1 2 3 4 5
+* **example** python3 create_index.py /home/ajack/Documents/Git/cluster_data 5 1 2 3 4 5
 
 returns clusters on seperate lines
 takes about 30 seconds to a minute to finish with 40 documents

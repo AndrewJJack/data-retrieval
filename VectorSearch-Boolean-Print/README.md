@@ -1,10 +1,10 @@
-# ASSIGNMENT 1
+
 
 ## LICENSE
 
 [CC Zero](https://wiki.creativecommons.org/wiki/Public_domain)
 
-All code is created with python3
+All code is created with python3 and implements sqlite3
 
 * Put the corpus directory in same directory as programs
 * inverted index is created in the same directory as programs

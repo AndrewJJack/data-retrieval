@@ -4,7 +4,7 @@
 
 [CC Zero](https://wiki.creativecommons.org/wiki/Public_domain)
 
-All code is created with python3
+All code is created with python3 implementing sqlite3
 
 #### Zone Scoring
 ###### Create zone index

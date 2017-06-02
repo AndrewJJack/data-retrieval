@@ -1,0 +1,1 @@
+Stemming increases the size of the vocabulary retrieval system.
